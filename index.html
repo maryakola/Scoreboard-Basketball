@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Basketball Skateboard</title>
+
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <main class="container">
+
+            <!-- Home Start -->
+            <div class="home">
+                <h3>HOME</h3>
+                <div class="scoreboard-home">
+                    <h2 id="home-score">0</h2>
+                </div>
+    
+                <!-- Buttons -->
+                <div class="buttons">
+                    <button class="plusone-btn" id="home-score-btn-1" onclick="homeAddPoint()">+1</button>
+                    <button class="plustwo-btn" id="home-score-btn-2" onclick="homeAdd2Points()">+2</button>
+                    <button class="plusthree-btn" id="home-score-btn-3" onclick="homeAdd3Points()">+3</button>
+                    <button class="reset-btn" onclick="reset()">Reset</button>
+                    <!--input type="button" value="reset" onclick="reset()"/-->
+                    
+                   
+                </div>
+            </div>
+    
+            <!-- Home End -->
+    
+            <!-- Guest Start -->
+            <div class="guest">
+                <h3>GUEST</h3>
+                <div class="scoreboard-guest">
+                    <h2 id="guest-score">0</h2>
+                </div>
+    
+                <!-- Buttons -->
+                <div class="buttons">
+                    <button class="plusone-btn" id="guest-score-btn-1" onclick="guestAddPoint()">+1</button>
+                    <button class="plustwo-btn" id="guest-score-btn-2" onclick="guestAdd2Points()">+2</button>
+                    <button class="plusthree-btn" id="guest-score-btn-3" onclick="guestAdd3Points()">+3</button>
+                    <button class="reset-btn" onclick="reset()">Reset</button>
+                    <!--input type="button" value="reset" onclick="reset()"/-->
+                
+                </div>
+            </div>
+    
+            <!-- Guest End -->
+    
+        </main>
+        <!-- Container End -->
+    
+        <!-- JavaScript -->
+        <script src="index.js"></script>
+    
+    </body>
+    </html>
